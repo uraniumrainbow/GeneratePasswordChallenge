@@ -28,7 +28,7 @@ function generatePassword(isLower, isUpper, isCharacter, isNumber) {
   }
   
   if (isCharacter) {
-    var charChar = "?!+-_"
+    var charChar = "!#$%&'()*+,-./:;<=>?@][^_`{|}~"
   } else {
     var charChar = ""
   };
